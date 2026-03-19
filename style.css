@@ -1,0 +1,41 @@
+body{
+    background-image:url(MainBackground.jpg);
+ background-repeat:no-repeat ;
+    background-size: auto;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+
+}
+
+.navbar{
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+text-align: end;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 9px 9px;
+}
+main{
+    padding: 17%;
+}
+.Portfolio{
+font-family:'Aboreto';
+font-size: 85px;
+font-weight: 400;
+text-align: center; 
+}
+.Name{
+font-family: 'Parisienne';
+font-size: 45px;
+font-weight: 400;
+text-align: center;
+}
+.bottomText{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}

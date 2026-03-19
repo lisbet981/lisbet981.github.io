@@ -1,0 +1,175 @@
+.navbar{
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+text-align: end;
+position: absolute;
+}
+.navbar a{
+    color: black;
+    padding: 9px 9px;
+}
+.Project{
+   text-decoration: underline rgb(255, 240, 240);
+}
+
+/* Calculator Image */
+.calculator{
+background-image: url(Calculator.jpg);
+/* Set a specific height */
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Tempo Image */
+.parallax {
+  /* The image used */
+  background-image: url(LargeMap.jpg);
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* simpleQuiz Image */
+.simpleQuiz{
+  background-image: url(SimpleQuiz.jpg);
+  /* Set a specific height */
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+/* TicTacToe Image */
+.TicTacToe{
+  background-image: url(TickTackToe.jpg);
+  /* Set a specific height */
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+ }
+
+/* RockPaper Image */
+.RockPaper{
+background-image: url(RockPaper.jpg);
+/* Set a specific height */
+  min-height: 600px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Calculator{
+    background-color: #eea6c2c9;
+    height:250px;
+    width: 100%;
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center;   
+}
+
+.tempoText{
+    background-color: #415a1ac5;
+    height:300px;
+    width: 100%;
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center;   
+}
+
+.SimpleQuiz{
+    background-color: #000000c9;
+    height:300px;
+    width: 100%;
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center;   
+}
+
+.TicTacToeBORDER{
+    background-color: #000000c9;
+    height:300px;
+    width: 100%;
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center;   
+}
+
+.rockpaper{
+    background-color: #0B1F38;
+    height:300px;
+    width: 100%;
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center;   
+}
+
+p.Calculatortext{
+  background-color: #c83e77;
+  color: #ffffff;
+  font-size:22px ;
+  border: 3px solid #ffffff;
+  border-radius: 15px; 
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.text{
+  background-color: #5d7931;
+  color: #f6dfff;
+  font-size:22px ;
+  border: 2px solid #f6dfff;
+  border-radius: 15px; 
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.SimpleQuiztext{
+  color: #f6dfff;
+  font-size:22px ;
+  border: 2px solid #a69cca;
+  border-radius: 15px; 
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.TicTacToeTEXT{
+  background-color: #c83e77;
+  color: #ffffff;
+  font-size:22px ;
+  border: 3px solid #ffffff;
+  border-radius: 15px; 
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
+
+p.rockpapertext{
+  background-color: #79225c;
+  color: #ffffff;
+  font-size:22px ;
+  border: 1px solid #ffffff;
+  border-radius: 15px; 
+  text-align: center;
+  padding: 1%;
+  width: 54%;
+  margin: 0 auto;
+}
